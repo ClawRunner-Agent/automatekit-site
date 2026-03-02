@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutomateKit — Custom AI Automation, Delivered in Days</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1a1a2e; line-height: 1.6; }
+        
+        .hero { background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); color: white; padding: 80px 20px; text-align: center; }
+        .hero h1 { font-size: 3rem; margin-bottom: 16px; font-weight: 800; }
+        .hero p { font-size: 1.3rem; max-width: 600px; margin: 0 auto 32px; opacity: 0.9; }
+        .cta-btn { display: inline-block; background: #6c63ff; color: white; padding: 16px 40px; border-radius: 8px; text-decoration: none; font-size: 1.1rem; font-weight: 600; transition: transform 0.2s; }
+        .cta-btn:hover { transform: translateY(-2px); background: #5a52d5; }
+        
+        .services { padding: 80px 20px; max-width: 1100px; margin: 0 auto; }
+        .services h2 { text-align: center; font-size: 2rem; margin-bottom: 48px; }
+        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+        .card { border: 2px solid #e8e8ef; border-radius: 12px; padding: 32px; transition: border-color 0.2s; }
+        .card:hover { border-color: #6c63ff; }
+        .card.featured { border-color: #6c63ff; background: #f8f7ff; }
+        .card h3 { font-size: 1.4rem; margin-bottom: 8px; }
+        .card .price { font-size: 2rem; font-weight: 800; color: #6c63ff; margin-bottom: 16px; }
+        .card ul { list-style: none; margin-bottom: 24px; }
+        .card ul li { padding: 6px 0; padding-left: 24px; position: relative; }
+        .card ul li::before { content: "✓"; position: absolute; left: 0; color: #6c63ff; font-weight: bold; }
+        .card .card-cta { display: block; text-align: center; background: #1a1a2e; color: white; padding: 12px; border-radius: 8px; text-decoration: none; font-weight: 600; }
+        .card.featured .card-cta { background: #6c63ff; }
+        
+        .proof { background: #f8f7ff; padding: 60px 20px; text-align: center; }
+        .proof h2 { font-size: 2rem; margin-bottom: 16px; }
+        .proof p { max-width: 600px; margin: 0 auto; font-size: 1.1rem; color: #555; }
+        
+        .how { padding: 80px 20px; max-width: 800px; margin: 0 auto; }
+        .how h2 { text-align: center; font-size: 2rem; margin-bottom: 48px; }
+        .step { display: flex; gap: 24px; margin-bottom: 32px; align-items: flex-start; }
+        .step-num { background: #6c63ff; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0; }
+        .step-text h3 { margin-bottom: 4px; }
+        .step-text p { color: #555; }
+        
+        .final-cta { background: linear-gradient(135deg, #0f0c29, #302b63); color: white; padding: 80px 20px; text-align: center; }
+        .final-cta h2 { font-size: 2rem; margin-bottom: 16px; }
+        .final-cta p { margin-bottom: 32px; opacity: 0.9; }
+        
+        footer { padding: 24px; text-align: center; color: #999; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1>Custom AI Automation,<br>Delivered in Days</h1>
+        <p>Stop losing hours to repetitive work. We build AI chatbots and workflow automations tailored to your business — fast.</p>
+        <a href="#pricing" class="cta-btn">See Packages →</a>
+    </section>
+
+    <section class="how">
+        <h2>How It Works</h2>
+        <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-text">
+                <h3>Tell Us What's Slowing You Down</h3>
+                <p>Book a free 15-minute call. We'll identify your biggest automation opportunities.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-text">
+                <h3>We Build It</h3>
+                <p>Our team builds your custom AI solution — chatbot, workflow, or both. Most projects delivered in 48–72 hours.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-text">
+                <h3>You Save Hours Every Week</h3>
+                <p>Launch your automation and reclaim time for work that actually moves the needle.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="pricing">
+        <h2>Simple, Fixed-Price Packages</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Starter</h3>
+                <div class="price">$497</div>
+                <ul>
+                    <li>Custom AI chatbot</li>
+                    <li>Trained on your docs & FAQs</li>
+                    <li>Website or Slack integration</li>
+                    <li>1 revision round</li>
+                    <li>Delivered in 48 hours</li>
+                </ul>
+                <a href="#book" class="card-cta">Get Started</a>
+            </div>
+            <div class="card featured">
+                <h3>Pro ⭐</h3>
+                <div class="price">$997</div>
+                <ul>
+                    <li>Everything in Starter</li>
+                    <li>Multi-channel deployment</li>
+                    <li>Custom workflow automation</li>
+                    <li>Zapier/Make integration</li>
+                    <li>2 revision rounds</li>
+                    <li>Delivered in 72 hours</li>
+                </ul>
+                <a href="#book" class="card-cta">Most Popular →</a>
+            </div>
+            <div class="card">
+                <h3>Enterprise</h3>
+                <div class="price">$1,997</div>
+                <ul>
+                    <li>Full AI workflow audit</li>
+                    <li>Custom chatbot + 2 automations</li>
+                    <li>API integrations</li>
+                    <li>30 days priority support</li>
+                    <li>Delivered in 5 days</li>
+                </ul>
+                <a href="#book" class="card-cta">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="proof">
+        <h2>Built for Speed</h2>
+        <p>We use cutting-edge AI models and battle-tested automation frameworks to deliver production-ready solutions in days, not months. No bloated timelines. No surprise invoices.</p>
+    </section>
+
+    <section class="final-cta" id="book">
+        <h2>Ready to Automate?</h2>
+        <p>Book a free 15-minute consultation. We'll map out your automation opportunities — no commitment.</p>
+        <a href="https://cal.com/automatekit" class="cta-btn">Book Free Call →</a>
+    </section>
+
+    <footer>
+        <p>© 2026 AutomateKit. All rights reserved.</p>
+    </footer>
+</body>
+</html>
